@@ -1,8 +1,9 @@
 from datetime import datetime, timedelta, timezone
 import sys
 import os
-import requests
-import slackweb
+sys.path.append('./packages')
+from packages import requests
+from packages import slackweb
 import settings
 
 def format_url(url):
