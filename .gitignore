@@ -1,6 +1,6 @@
 __pycache__
 .env
-packages/
+packages/*
 debug.py
 
 .DS_Store

@@ -1,7 +1,7 @@
-from datetime import datetime, timedelta, timezone
 import sys
 import os
 sys.path.append('./packages')
+from datetime import datetime, timedelta, timezone
 from packages import requests
 from packages import slackweb
 import settings
