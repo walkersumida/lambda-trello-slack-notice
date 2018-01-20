@@ -1,0 +1,6 @@
+__pycache__
+.env
+packages/
+debug.py
+
+.DS_Store
