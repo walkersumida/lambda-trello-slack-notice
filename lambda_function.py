@@ -4,7 +4,6 @@ import os
 import requests
 import slackweb
 import settings
-import debug
 
 def format_url(url):
     return url.rsplit('/', 1)[0]
