@@ -10,3 +10,9 @@ cp .env.sample .env
 ```
 
 ## set value
+
+# Upload lambda
+## zip
+```
+zip -r upload.zip *
+```
