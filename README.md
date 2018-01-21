@@ -1,18 +1,15 @@
-# Install
+# Install packages
 ```
 pip install -r requirements.txt -t packages/
 ```
 
-# Set environment variable
+# Create zip file for lambda
+```
+zip -r upload.zip *
+```
+
+# Local debug
 ## copy file
 ```
 cp .env.sample .env
-```
-
-## set value
-
-# Upload lambda
-## zip
-```
-zip -r upload.zip *
 ```
