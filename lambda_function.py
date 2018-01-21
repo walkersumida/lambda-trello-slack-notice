@@ -16,7 +16,7 @@ def slack_new(url):
     return slackweb.Slack(url=url)
 
 def slack_notice(msg):
-    slack = slack_new(os.environ['SLACK_WEBNOOK_URL'])
+    slack = slack_new(os.environ['SLACK_WEBHOOK_URL'])
     slack.notify(text=msg, mrkdwn=True)
 
 def is_weekday():
