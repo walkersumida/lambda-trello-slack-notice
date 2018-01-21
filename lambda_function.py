@@ -4,7 +4,7 @@ sys.path.append('./packages')
 from datetime import datetime, timedelta, timezone
 from packages import requests
 from packages import slackweb
-import settings
+# import settings # for local debug
 
 def format_url(url):
     return url.rsplit('/', 1)[0]
